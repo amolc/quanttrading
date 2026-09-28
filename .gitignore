@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Live trader secrets + state (never commit)
+strategyforapollo/alpaca_live.json
+data/
+
+# Virtual environments / editor
+venv/
+.venv/
+.vscode/
+.idea/
+.DS_Store
+
+# CPR live bot secret (never commit)
+cpr_keys.json
